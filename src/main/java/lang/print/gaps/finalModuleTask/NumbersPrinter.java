@@ -5,8 +5,9 @@ public class NumbersPrinter {
 
         number = 10 / 2;
         int res = number;
-        boolean a =number!=5;
-        System.out.println(a);
+        boolean a =number==5;
+        boolean b = number!=5;
+        System.out.println(b||a);
 
 
     }
