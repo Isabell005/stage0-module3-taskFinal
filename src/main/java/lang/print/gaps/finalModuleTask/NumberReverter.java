@@ -2,8 +2,8 @@ package lang.print.gaps.finalModuleTask;
 
 public class NumberReverter {
     public void revert(int number) {
-        int a = 457;
-        int sum = a + 297;
+        int a = 433;
+        int sum = a + 321;
         System.out.println(sum);
     }
 }
