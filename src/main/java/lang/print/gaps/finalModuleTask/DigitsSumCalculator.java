@@ -1,15 +1,16 @@
 package lang.print.gaps.finalModuleTask;
 
-import java.util.Scanner;
 
 public class DigitsSumCalculator {
     public void calculateSum(int number) {
-        Scanner sc= new Scanner(System.in);
-        int sum=0;
-       while (number!=0){
-           sum= sum+number%10;
-           number=number/10;
-       }
+        int thousands = number / 1000;
+        int hundreds = (number % 1000) / 100;
+        int tens = (number % 100) / 10;
+        int ones = number % 10;
+
+
+        int sum = thousands + hundreds + tens + ones;
+
         System.out.println(sum);
     }
 }
